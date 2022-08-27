@@ -12,6 +12,7 @@ let getCurrentPosition = source => {
 }
 
 // #2 mengambil daftar jawaban
+
 let getListAnswer = selectedSource => {
     // id unik untuk masing-masing pertanyaan
     let qId = selectedSource["question_id"]
