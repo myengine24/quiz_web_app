@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+html, body {
+    height: 100%;
+    background-color: #fefae0;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 10px 0 10px 0;
+}
+
+.card {
+    display: none;
+}
+
+.congrats {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.btn-custom-green {
+    background-color: #29BF12 !important;
+    border: none;
+}
+
+.card-header {
+    font-weight: bold;
+    background-color: #08BDBD;
+    color: white;
+}
+
+.list-group-item {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.selected-answer {
+    background-color: #F21B3F;
+    color: white;
+}
+
+.btn {
+    border: 2px solid #29BF12;
+    background: #29BF12;
+    color: white;
+}
+
+.btn:hover {
+    border: 2px solid #29BF12;
+}   

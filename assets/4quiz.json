@@ -1,0 +1,207 @@
+[
+    {
+        "level": 1,
+        "quiz": [
+            {
+                "question_num": 1,
+                "question_id": 1,
+                "question": "Siapa Presiden Pertama Republik Indonesia?",
+                "answer_list": {
+                    "a": "Ir. Soekarno",
+                    "b": "Moh. Hatta",
+                    "c": "Megawati",
+                    "d": "Susilo Bambang Yudhoyono"
+                },
+                "correct_answer": "a"
+            },
+            {
+                "question_num": 1,
+                "question_id": 2,
+                "question": "Kapan Indonesia merdeka?",
+                "answer_list": {
+                    "a": "20 Agustus 1943",
+                    "b": "1 April 1940",
+                    "c": "17 Agustus 1945",
+                    "d": "7 Januari 1950"
+                },
+                "correct_answer": "c"
+            },
+            {
+                "question_num": 1,
+                "question_id": 3,
+                "question": "Di mana Ibu Kota Indonesia?",
+                "answer_list": {
+                    "a": "Palembang",
+                    "b": "Jakarta",
+                    "c": "Pontianak",
+                    "d": "Surabaya"
+                },
+                "correct_answer": "b"
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "quiz": [
+            {
+                "question_num": 2,
+                "question_id": 4,
+                "question": "Penghantar panas yang baik, disebut?",
+                "answer_list": {
+                    "a": "Radiator",
+                    "b": "Konduktor",
+                    "c": "Isolator",
+                    "d": "Predator"
+                },
+                "correct_answer": "b"
+            },
+            {
+                "question_num": 2,
+                "question_id": 5,
+                "question": "Planet terdekat dengan matahari?",
+                "answer_list": {
+                    "a": "Saturnus",
+                    "b": "Bumi",
+                    "c": "Mars",
+                    "d": "Merkurius"
+                },
+                "correct_answer": "d"
+            },
+            {
+                "question_num": 2,
+                "question_id": 6,
+                "question": "1 tahun sama dengan berapa caturwulan?",
+                "answer_list": {
+                    "a": "6",
+                    "b": "4",
+                    "c": "3",
+                    "d": "8"
+                },
+                "correct_answer": "c"
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "quiz": [
+            {
+                "question_num": 3,
+                "question_id": 7,
+                "question": "1 Petabyte sama dengan?",
+                "answer_list": {
+                    "a": "1.000.000 MB",
+                    "b": "100 Exabyte",
+                    "c": "10 GB",
+                    "d": "Semua jawaban salah"
+                },
+                "correct_answer": "d"
+            },
+            {
+                "question_num": 3,
+                "question_id": 8,
+                "question": "-1 x -1 + 10 = ?",
+                "answer_list": {
+                    "a": "9",
+                    "b": "12",
+                    "c": "11",
+                    "d": "10"
+                },
+                "correct_answer": "c"
+            },
+            {
+                "question_num": 3,
+                "question_id": 9,
+                "question": "Manakah diantara benda berikut yang dapat digunakan sebagai bahan bakar nuklir?",
+                "answer_list": {
+                    "a": "Uranium",
+                    "b": "Plutonium",
+                    "c": "Torium",
+                    "d": "Semua jawaban benar"
+                },
+                "correct_answer": "d"
+            }
+        ]
+    },
+    {
+        "level": 4,
+        "quiz": [
+            {
+                "question_num": 4,
+                "question_id": 10,
+                "question": "Berapa jumlah sudut lingkaran?",
+                "answer_list": {
+                    "a": "Tak terhingga",
+                    "b": "12",
+                    "c": "78",
+                    "d": "4"
+                },
+                "correct_answer": "a"
+            },
+            {
+                "question_num": 4,
+                "question_id": 11,
+                "question": "Jumlah negara pendiri PBB",
+                "answer_list": {
+                    "a": "5",
+                    "b": "3",
+                    "c": "8",
+                    "d": "7"
+                },
+                "correct_answer": "a"
+            },
+            {
+                "question_num": 4,
+                "question_id": 12,
+                "question": "Organisasi PPB yang menangani perubahan iklim?",
+                "answer_list": {
+                    "a": "FAO",
+                    "b": "UNICEF",
+                    "c": "UNDP",
+                    "d": "UNFCCC"
+                },
+                "correct_answer": "d"
+            }
+        ]
+    },
+    {
+        "level": 5,
+        "quiz": [
+            {
+                "question_num": 5,
+                "question_id": 13,
+                "question": "Semua pengendara sepeda motor memakai helm.  Setiap orang yang memakai helm adalah mahasiswa. Dari dua pernyataan di atas, kesimpulannya adalah...",
+                "answer_list": {
+                    "a": "Semua pengendara sepeda motor adalah mahasiswa",
+                    "b": "Sebagian pengendara sepeda motor adalah mahasiswa",
+                    "c": "Tidak semua yang memakai helm adalah mahasiswa",
+                    "d": "Semua salah"
+                },
+                "correct_answer": "a"
+            },
+            {
+                "question_num": 5,
+                "question_id": 14,
+                "question": "Terdapat 10 ikan lele di parit, tapi sayang, 3 lainnya tenggelam. Berapa ikan lele yang tersisa?",
+                "answer_list": {
+                    "a": "7",
+                    "b": "3",
+                    "c": "12",
+                    "d": "10"
+                },
+                "correct_answer": "d"
+            },
+            {
+                "question_num": 5,
+                "question_id": 15,
+                "question": "Suatu seri: 100-4-90-7-80 seri selanjutnya adalah...",
+                "answer_list": {
+                    "a": "8",
+                    "b": "9",
+                    "c": "10",
+                    "d": "11"
+                },
+                "correct_answer": "c"
+            }
+        ]
+    }
+]
