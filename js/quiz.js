@@ -12,7 +12,6 @@ let getCurrentPosition = source => {
 }
 
 // #2 mengambil daftar jawaban
-
 let getListAnswer = selectedSource => {
     // id unik untuk masing-masing pertanyaan
     let qId = selectedSource["question_id"]
@@ -128,11 +127,11 @@ let runQuiz = html => {
 let singleCheckbox = id => {
     let className = ".custom-control-input"
     let inputs = document.querySelectorAll(className)
-
+    // set semua check box dalam posisi falses
     inputs.forEach(input => {
         input.checked = false
     })
-
+    // set clicked checkbox
     document.getElementById(id).checked = true
     // jalan fungsi checking untuk memastikan checkbox tidak "kosong" / tidak 
     checkChecked(inputs)
@@ -147,6 +146,7 @@ let checkChecked = (inputs) => {
     // pada tombol di set = true
     inputs.forEach(input => {
         if (input.checked == true) {
+            // jika ada centang, check "disabled button" ke false
             btn.disabled = false
         }
     })
@@ -166,10 +166,10 @@ let Reload = () => {
 fetch('assets/4quiz.json')
     .then(response => response.json())
     .then(json => {
-
+        // data terfilter secara acak
         let currentData = getCurrentPosition(json)
+        // struktur HTML
         let htmlStructure = getHtmlStructure(currentData)
-
+        // jalankan kuis
         runQuiz(htmlStructure)
-
     })
